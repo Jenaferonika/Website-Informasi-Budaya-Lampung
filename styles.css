@@ -1,0 +1,214 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #496989 ;
+}
+
+header {
+    background-color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 100px;
+    width: auto;
+    margin-left: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    
+}
+
+nav ul li {
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+
+nav ul li a {
+    color: #496989;
+    text-decoration: none;
+}
+
+.bgwelcome{
+ background-color: #d9d9d9;
+ padding: 5%;
+ transform: scale(0.85);
+ border-radius: 20px;
+}
+
+.welcome-box {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+}
+
+.welcome-box img {
+    margin-right: 20px;
+    margin-bottom: 13.8%;
+    max-width: 10%; 
+    border-radius: 50%;
+}
+
+.welcome-text h1 {
+    color: #496989;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px; 
+    margin: 0;
+    border-radius: 10px;
+}
+
+.welcome-text p {   
+    margin-top: 10px;
+    color: #496989;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px; 
+}
+
+.image-section img {
+    max-width: 200px; 
+    border-radius: 50%; 
+    margin: 0 100px;
+}
+
+.caption-left  {
+    text-align: center ;
+    margin: 0;
+    color: #fff;
+}
+
+.caption-right  {
+    text-align: center ;
+    margin: 0;
+    color: #fff ;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    margin-top: 5%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 40px;
+    margin: 0 10px;
+  }
+
+.section1 h1{
+    color: white;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+input[type=text] {
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+.mySlides {
+    display:none;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+
+.sectionjudul {
+    margin: auto;
+    z-index: 1;
+  }
+  
+  .sectionjudul img {
+    width: 100%;
+    max-height: 600px;
+  }
+
+  .sectionjudul h1{
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    color: white;
+  }
+
+  .section2 {
+    display: flex;
+  }
+  
+  .section2 > div {
+    flex: 1;
+    margin: 10px;
+    border: 3px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .section2 img{
+        max-width: 100%; /* Maksimum lebar gambar adalah lebar parent */
+        height: auto; /* Mengatur tinggi gambar secara otomatis */
+  }
+
+  .gambaradat img{
+    width: 500px;
+    height: 500px;
+  }
+
+  h4{
+    color: white;
+  }
+  .lampung {
+    display: flex;
+  }
+
+  .lampung .info-section{
+    margin-right: 10%;
+    margin-top: 50px;
+    text-align: justify;
+    color: white;
+  }
+
+  .lampung img{
+    width: 55%;
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 40px;
+    margin: 0 10px;
+  }
+
+
+
